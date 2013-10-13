@@ -1,0 +1,10 @@
+{
+  "sources": {
+    "android-ndk": {
+      "path": "."
+    },
+    "ark": {
+      "locked_version": "0.4.0"
+    }
+  }
+}
