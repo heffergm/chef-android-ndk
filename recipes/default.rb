@@ -7,5 +7,5 @@ ark 'android-ndk' do
 end
 
 template '/etc/profile.d/android-ndk.sh' do
-  variables path: "#{node['ark']['prefix_root']}/android-ndk"
+  variables :path => "#{node['ark']['prefix_root']}/android-ndk"
 end
